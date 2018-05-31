@@ -57,17 +57,37 @@
 
   <!-- ______________________start MAIN_______________________ -->
 
-  <div class="">
+  <form method="post" action="fichier.php">
+
     <h2>pour me contacter</h2>
+    <p>vous pouvez remplir les champs ci-dessous<br/>
+    je ne réponds jamais (j'étudie l'âge du héron)</p>
 
+    <input type="text" name="nom" id="nom" placeholder="vos nom et prénom" required />
 
-    <address>
-      <p>vous pouvez utiliser le lien ci dessous<br>
-      je ne réponds jamais (j'étudie l'âge du héron)</p>
-     <a href="mailto:benoit.petite@gmail.com">Ben Petite</a>.<br>
-    </address>
-  </div>
+    <p>
 
+    <input type="email" placeholder="votre adresse mail"/ required>
+
+    </p>
+
+    <p>
+      selon vous, quel âge a le héron ?<br />
+      <input type="radio" name="age" value="moins5" id="moins5" /> <label for="moins5">moins de 5 ans</label><br />
+      <input type="radio" name="age" value="medium5-20" id="medium5-20" /> <label for="medium5-20">entre 5 et 20 ans</label><br />
+      <input type="radio" name="age" value="plus20" id="plus20" /> <label for="plus20">le héron est éternel</label><br />
+      <input type="radio" name="age" value="rien" id="rien" /> <label for="rien">ce n'est pas un héron</label>
+    </p>
+
+    <textarea name="texte" id="texte" placeholder="rédigez votre message ici, s'il vous plaît" required></textarea>
+
+    <p>
+
+    <input type="submit" value="envoyer"></input>
+
+    </p>
+    
+  </form>
 
   <!-- ______________________end MAIN_______________________ -->
 
