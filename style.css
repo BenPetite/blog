@@ -1,4 +1,4 @@
-body{background-color:#FAF0C5; /*#DFF2FF;*/
+body{background-color: #FEFEFE;/*#FAF0C5;*/ /*#DFF2FF;*/
 }
 
 header{color: #3F2204;
@@ -21,6 +21,8 @@ aside{
   right:0;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
     width: 250px;
