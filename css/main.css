@@ -157,11 +157,15 @@ textarea {
 }
 
 .récents{
+  font-style: normal;
   font-size: .8;
+  letter-spacing: 5px;
   color:white;
   margin-top: 10px;
   margin-bottom: 80%;
   padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -175,6 +179,7 @@ textarea {
   justify-content: space-around;
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 5px;
   width:85%;
 }
 
@@ -184,21 +189,14 @@ header,nav,footer{
   padding-bottom: 5px;
 }
 
-img{
-  text-align: center;
-}
-
 h1{
   font-family: 'Anton', sans-serif;
+  color:#E1DEE3;
+  letter-spacing: 10px;
 }
 
 h2, h3,h4,h5,h6,p{
   font-family:'Roboto', sans-serif;
-}
-
-h1{
-  color:#E1DEE3;
-  letter-spacing: 10px;
 }
 
 h2{
@@ -245,9 +243,7 @@ nav{
 
   aside h3{
     color: #E1DEE3;
-    text-align: right;
-  }
-
+}
 /* end aside */
 
 /* start footer */
@@ -255,7 +251,9 @@ footer{
   background-color: #4B5F52;
   text-align: center;
   color:#E1DEE3;
+  margin-top: 5px;
 }
+
 footer small,a{
   margin: 10px;
 }
@@ -263,6 +261,7 @@ footer small,a{
 
 
 /* start main */
+
 section h2{
   color: black;
   font-style: italic;
