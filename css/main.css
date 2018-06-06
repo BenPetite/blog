@@ -98,9 +98,27 @@ textarea {
    ========================================================================== */
 
 /* start global classes */
-body{
+.fond{
   background-color:#E1DEE3 ;
 }
+
+.articles{
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.bienvenue{
+    background-color: #3A4F41;
+    text-align: right;
+    color: #E1DEE3 ;
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
 header,nav,footer{
   margin: 0;
   padding-top: 5px;
@@ -114,16 +132,26 @@ header,nav,footer{
 #container_articles{
   display: flex;
   justify-content: space-around;
+  padding-left: 5px;
+  padding-right: 5px;
   width:85%;
 }
-.articles{
-  width: 30%;
-  padding: 10px;
-  margin: 5px;
+
+
 }
-}
-h1, h2{
+h1{
   color:#E1DEE3;
+}
+
+h2{
+  background-color: #6F7F74;
+  text-align: center;
+  color: #E1DEE3 ;
+  padding-top: 30px;
+}
+
+h3{
+  text-align: center;
 }
 
 a{
@@ -159,7 +187,13 @@ nav{
 /* start aside */
 aside{
   background-color: #6F7F74; /*smoke*/
+  color: #E1DEE3;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   }
+
 /* end aside */
 
 /* start footer */
@@ -172,7 +206,12 @@ footer{
 
 
 /* start main */
-
+section h2{
+  color: black;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
 /* end main */
 
 
