@@ -98,9 +98,11 @@ textarea {
    ========================================================================== */
 
 /* start global classes */
+
 .fond{
   background-color:#E1DEE3 ;
 }
+
 
 .articles{
   width: 30%;
@@ -117,6 +119,10 @@ textarea {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+}
+
+.récents{
+  color:white;
 }
 
 header,nav,footer{
@@ -137,10 +143,17 @@ header,nav,footer{
   width:85%;
 }
 
-
+h1{
+  font-family: 'Anton', sans-serif;
 }
+
+h2, h3,h4,h5,h6,p{
+  font-family:'Roboto', sans-serif;
+}
+
 h1{
   color:#E1DEE3;
+  letter-spacing: 10px;
 }
 
 h2{
@@ -182,16 +195,23 @@ nav{
   color:#E1DEE3;
 }
 
+
 /* end nav */
 
 /* start aside */
 aside{
+  float: right;
   background-color: #6F7F74; /*smoke*/
   color: #E1DEE3;
   text-align: right;
   padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
+  }
+
+  aside h3{
+    color: #E1DEE3;
+    text-align: right;
   }
 
 /* end aside */
@@ -211,6 +231,10 @@ section h2{
   text-align: center;
   padding-bottom: 15px;
   margin-top: 0;
+}
+
+section a{
+  color:black;
 }
 /* end main */
 
