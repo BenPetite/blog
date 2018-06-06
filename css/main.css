@@ -226,6 +226,9 @@ footer{
 
 
 /* start main */
+section div{
+  border-style: solid;
+}
 section h2{
   color: black;
   text-align: center;
