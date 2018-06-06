@@ -103,11 +103,20 @@ textarea {
   background-color:#E1DEE3 ;
 }
 
+.boutonSuite{
+  background-color: #4B5F52;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  padding-right: 2px;
+}
+
 .floatingAside{
   position: fixed;
   right: 0;
   top: 30%;
   margin-top: -2.5em;
+  width: 200px;
   background-color: #6F7F74; /*smoke*/
   color: #E1DEE3;
   text-align: right;
@@ -122,6 +131,11 @@ textarea {
   width: 30%;
   padding: 10px;
   margin: 5px;
+  border-style: solid;
+  border-color: #3A4F41;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: .8em;
 }
 
 .bienvenue{
@@ -136,14 +150,14 @@ textarea {
 }
 
 .récents{
+  font-size: .8;
   color:white;
+  margin-top: 10px;
+  margin-bottom: 80%;
+  padding-top: 10px;
 }
 
-header,nav,footer{
-  margin: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+
 /* end global classes */
 
 
@@ -155,6 +169,16 @@ header,nav,footer{
   padding-left: 5px;
   padding-right: 5px;
   width:85%;
+}
+
+header,nav,footer{
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img{
+  text-align: center;
 }
 
 h1{
@@ -233,6 +257,7 @@ footer{
 /* start main */
 section h2{
   color: black;
+  font-style: italic;
   text-align: center;
   padding-bottom: 15px;
   margin-top: 0;
