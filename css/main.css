@@ -97,7 +97,83 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* start global classes */
+body{
+  background-color:#E1DEE3 ;
+}
+header,nav,footer{
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* end global classes */
 
+
+
+/* start common rules */
+#container_articles{
+  display: flex;
+  justify-content: space-around;
+  width:85%;
+}
+.articles{
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+}
+}
+h1, h2{
+  color:#E1DEE3;
+}
+
+a{
+  color:#E1DEE3 ;
+  list-style-type: none;
+  text-decoration: none;
+}
+/* end common rules */
+
+
+
+/* start header */
+header{
+  background-color: #3A4F41;
+  text-align:center;
+  font-size: 2em;
+}
+
+/* end header */
+
+
+
+/* start nav */
+nav{
+  background-color: #4B5F52;
+  list-style-type: none;
+  text-align: center;
+  color:#E1DEE3;
+}
+
+/* end nav */
+
+/* start aside */
+aside{
+  background-color: #6F7F74; /*smoke*/
+  }
+/* end aside */
+
+/* start footer */
+footer{
+  background-color: #4B5F52;
+  text-align: center;
+  color:#E1DEE3;
+}
+/* end footer */
+
+
+/* start main */
+
+/* end main */
 
 
 
