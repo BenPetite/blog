@@ -103,6 +103,13 @@ textarea {
   background-color:#E1DEE3 ;
 }
 
+.boutonNav{
+  display: inline-block;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .boutonSuite{
   background-color: #4B5F52;
   color: white;
@@ -131,11 +138,11 @@ textarea {
   width: 30%;
   padding: 10px;
   margin: 5px;
+  margin-bottom: auto;
   border-style: solid;
   border-color: #3A4F41;
   border-radius: 10px;
   border-width: 1px;
-  font-size: .8em;
 }
 
 .bienvenue{
@@ -232,8 +239,6 @@ nav{
   text-align: center;
   color:#E1DEE3;
 }
-
-
 /* end nav */
 
 /* start aside */
@@ -250,6 +255,9 @@ footer{
   background-color: #4B5F52;
   text-align: center;
   color:#E1DEE3;
+}
+footer small,a{
+  margin: 10px;
 }
 /* end footer */
 
