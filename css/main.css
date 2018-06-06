@@ -103,6 +103,20 @@ textarea {
   background-color:#E1DEE3 ;
 }
 
+.floatingAside{
+  position: fixed;
+  right: 0;
+  top: 30%;
+  margin-top: -2.5em;
+  background-color: #6F7F74; /*smoke*/
+  color: #E1DEE3;
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 
 .articles{
   width: 30%;
@@ -199,15 +213,6 @@ nav{
 /* end nav */
 
 /* start aside */
-aside{
-  float: right;
-  background-color: #6F7F74; /*smoke*/
-  color: #E1DEE3;
-  text-align: right;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  }
 
   aside h3{
     color: #E1DEE3;
@@ -226,9 +231,6 @@ footer{
 
 
 /* start main */
-section div{
-  border-style: solid;
-}
 section h2{
   color: black;
   text-align: center;
